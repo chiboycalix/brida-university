@@ -3,6 +3,7 @@ import FirstSection from './sections/first';
 import CrossImage from './sections/cross-image';
 import Feature from './sections/feature';
 import './landing.scss';
+import Analytics from './sections/analytics';
 
 const Landing = () => {
   return (
@@ -10,6 +11,7 @@ const Landing = () => {
      <FirstSection />
      <CrossImage />
      <Feature />
+     <Analytics />
     </div>
   )
 }
