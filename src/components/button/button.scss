@@ -1,0 +1,23 @@
+button {  
+    background-image: linear-gradient(to right, #fe8c00 0%, #f83600  51%, #fe8c00  100%);
+    margin: 10px;
+    padding: 20px 40px;
+    text-align: center;
+    text-transform: capitalize;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 50px;
+    display: block;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-weight: 600;
+
+  &:hover {
+    background-position: right left;
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+}

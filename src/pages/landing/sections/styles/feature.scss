@@ -1,0 +1,36 @@
+.feature__wrapper{
+  padding: 2rem 4rem;
+  background-color: #F7F5ED;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+
+  .feature{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+
+    @media only screen and (max-width: 768px) {
+      flex-direction: column;
+    }
+    img{
+      width: 40px;
+    }
+    div{
+      p{
+        font-size: 12px;
+
+        @media only screen and (max-width: 315px) {
+          text-align: center;
+        }
+      }
+    }
+
+  }
+}

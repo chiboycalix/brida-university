@@ -1,0 +1,17 @@
+.links__wrapper-web{
+  display: flex;
+  gap: 3rem;
+
+  @media only screen and (max-width: 950px) {
+   display: none;
+  }
+  
+  li{
+    list-style: none;
+
+    a{
+      text-decoration: none;
+      color: #ffffff;
+    }
+  }
+}
