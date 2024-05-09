@@ -1,0 +1,27 @@
+.read-our-blog__wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 4rem;
+
+  .blog-cards__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+
+
+    @media only screen and (max-width: 768px) {
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .blog__wrapper{
+      flex-basis: 25%;
+    }
+  }
+  .btn__Wrapper{
+    margin-top: 4rem;
+  }
+}
